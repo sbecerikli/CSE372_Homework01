@@ -1,0 +1,32 @@
+----------------------------------------------------------------------
+
+
+Tcl error: genericobjectinspector.cc#82: (Router)Homework01.R1: Invalid gate Id 9
+    while executing
+"opp_classdescriptor $obj $sd fieldstructpointer $fieldid $index"
+    (procedure "fieldsPage:getNodeInfo:getFieldText" line 41)
+    invoked from within
+"fieldsPage:getNodeInfo:getFieldText $obj $sd $fieldid $index"
+    (procedure "fieldsPage:getNodeInfo" line 37)
+    invoked from within
+"$Tree($w:function) $w text $c"
+    (procedure "Tree:buildlayer" line 16)
+    invoked from within
+"Tree:buildlayer $w $c [expr $in+18]"
+    (procedure "Tree:buildlayer" line 54)
+    invoked from within
+"Tree:buildlayer $w $c [expr $in+18]"
+    (procedure "Tree:buildlayer" line 54)
+    invoked from within
+"Tree:buildlayer $w [$Tree($w:function) $w root] 10"
+    (procedure "Tree:build" line 6)
+    invoked from within
+"Tree:build $tree"
+    (procedure "fieldsPage:refresh" line 13)
+    invoked from within
+"fieldsPage:refresh $insp"
+    (procedure "GenericObjectInspector:refresh" line 2)
+    invoked from within
+"GenericObjectInspector:refresh .inspector"
+
+
